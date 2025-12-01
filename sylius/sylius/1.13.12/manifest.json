@@ -1,2 +1,5 @@
 {
+    "composer-scripts": {
+        "sylius:telemetry:notice": "symfony-cmd"
+    }
 }
