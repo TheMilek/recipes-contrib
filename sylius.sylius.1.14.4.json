@@ -2,6 +2,9 @@
     "manifests": {
         "sylius/sylius": {
             "manifest": {
+                "composer-scripts": {
+                    "sylius:telemetry:notice": "symfony-cmd"
+                },
                 "post-install-output": [
                     "<bg=blue;fg=white>                                                                     </>",
                     "<bg=blue;fg=white>  Sylius Telemetry                                                   </>",
@@ -15,7 +18,7 @@
                 ]
             },
             "files": [],
-            "ref": "508b4ab46c18cae363265a136db99f4bf5987227"
+            "ref": "386f6236e2bc444082be3da57c423ffe013e2d0e"
         }
     }
 }
