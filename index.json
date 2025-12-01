@@ -1923,6 +1923,12 @@
             "1.9",
             "1.12"
         ],
+        "sylius/sylius": [
+            "1.12.20",
+            "1.13.12",
+            "1.14.4",
+            "2.0.14"
+        ],
         "sylius/twig-extra": [
             "0.4"
         ],
@@ -2239,11 +2245,11 @@
     "branch": "main",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/symfony/recipes-contrib",
-        "origin_template": "{package}:{version}@github.com/symfony/recipes-contrib:main",
-        "recipe_template": "https://raw.githubusercontent.com/symfony/recipes-contrib/flex/main/{package_dotted}.{version}.json",
+        "repository": "github.com/TheMilek/recipes-contrib",
+        "origin_template": "{package}:{version}@github.com/TheMilek/recipes-contrib:main",
+        "recipe_template": "https://raw.githubusercontent.com/TheMilek/recipes-contrib/flex/main/{package_dotted}.{version}.json",
         "recipe_template_relative": "{package_dotted}.{version}.json",
-        "archived_recipes_template": "https://raw.githubusercontent.com/symfony/recipes-contrib/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/TheMilek/recipes-contrib/flex/main/archived/{package_dotted}/{ref}.json",
         "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }

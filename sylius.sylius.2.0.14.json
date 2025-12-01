@@ -1,0 +1,21 @@
+{
+    "manifests": {
+        "sylius/sylius": {
+            "manifest": {
+                "post-install-output": [
+                    "<bg=blue;fg=white>                                                                     </>",
+                    "<bg=blue;fg=white>  Sylius Telemetry                                                   </>",
+                    "<bg=blue;fg=white>                                                                     </>",
+                    "",
+                    "  Sylius collects <comment>anonymous usage data</> to help improve the platform.",
+                    "  No personal or sensitive information is collected.",
+                    "",
+                    "  * To <fg=yellow>opt-out</>, set <comment>SYLIUS_TELEMETRY_ENABLED=0</> in your <comment>.env</>",
+                    "  * Learn more: <comment>https://docs.sylius.com/telemetry</>."
+                ]
+            },
+            "files": [],
+            "ref": "fac677a4fb0685e59f66b4185ff13dd27c7d1375"
+        }
+    }
+}
